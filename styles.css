@@ -176,12 +176,7 @@ button#submitbtn{
     padding-left: 1em;
 }
 
-button#submitbtn img{
-    max-width: 2em;
-    height: auto;
-    vertical-align: middle;
-    justify-content: left;
-}
+
 
 button#submitbtn > span{
     vertical-align: middle;
@@ -472,13 +467,7 @@ section#filter button {
     justify-self: center;
   }
 
-  section#contacthead img{
-    max-width: 3em;
-    height: auto;
-    background-color: #d1d5db;
-    border-radius: 100%;
-    margin-right: 0.5em;
-}
+  
 
 div#contactdetails{
     display: flex;
@@ -586,16 +575,8 @@ table#contactinfotable{
     height: 40px;
   }
 
-  button#assigntome img{
-    background-color: #4ade80;
-    width: 20px;
-    height: auto;
-    margin-left: 1em;
-  }
-
-  button#assigntome:hover img{
-    background-color: #fff;
-  }
+ 
+  
 
   button#switchtoother{
     border-radius: 0.4em;
