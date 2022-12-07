@@ -85,4 +85,4 @@ ALTER TABLE `notes`
  ALTER TABLE `notes`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1;
 
-INSERT INTO `users` (`firstname`, `lastname`, `password`, `email`,`role` ,`created_at`) VALUES ('admin', 'purposes', '$2y$10$3RXOInOdJEtBY61pUBy.j.O7mqh17gPfzhpTB9aAfrjGL66jFw/AK', 'admin@project2.com','admin', current_timestamp());
+INSERT INTO `users` (`firstname`, `lastname`, `password`, `email`,`role` ,`created_at`) VALUES ('admin', 'purposes', '$2y$10$J32K.bB0.0s/PUfcrTN/OOzkdUpG3Jwl8uml/QrejVAGkIiMzb5O.', 'admin@project2.com','admin', current_timestamp());
