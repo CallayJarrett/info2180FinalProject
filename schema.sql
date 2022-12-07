@@ -3,11 +3,10 @@ CREATE DATABASE dolphin_crm;
 
 USE dolphin_crm;
 
--- --------------------------------------------------------
 
---
--- Table structure for table `Users`
---
+
+-- Users Table
+
 
 
 CREATE TABLE `users` (
@@ -20,11 +19,10 @@ CREATE TABLE `users` (
   `created_at` datetime NOT NULL DEFAULT current_timestamp()
 );
 
--- --------------------------------------------------------
 
---
--- Table structure for table `Contacts`
---
+
+--  Contacts Table
+
 
 
 CREATE TABLE `contacts` (
@@ -43,11 +41,10 @@ CREATE TABLE `contacts` (
 );
 
 
--- --------------------------------------------------------
 
---
--- Table structure for table `notes`
---
+
+--  Notes Table
+
 
 CREATE TABLE `notes` (
   `id` int(11) NOT NULL,
@@ -58,9 +55,9 @@ CREATE TABLE `notes` (
 );
 
 
---
--- Indexes for table `Contacts`
---
+
+-- Contacts Table Indices
+
 ALTER TABLE `contacts`
   ADD PRIMARY KEY (`id`);
 
@@ -68,9 +65,9 @@ ALTER TABLE `contacts`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1;
 
 
---
--- Indexes for table `Users`
---
+
+-- Users Table Indices
+
 
 ALTER TABLE `users`
   ADD PRIMARY KEY (`id`);
@@ -78,9 +75,9 @@ ALTER TABLE `users`
  ALTER TABLE `users`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1;
 
---
--- Indexes for table `Notes`
---
+
+-- Indexes for table Notes
+
 
 ALTER TABLE `notes`
   ADD PRIMARY KEY (`id`);
